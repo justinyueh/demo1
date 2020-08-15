@@ -1,0 +1,84 @@
+/**
+ * bem styled
+ * http://getbem.com/naming/
+ */
+
+.app {
+  font-family: sans-serif;
+}
+
+.app__haeder {
+  font-weight: bold;
+  line-height: 2;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.table__head {
+  background-color: lightgreen;
+  color: green;
+}
+
+.table__row--selected {
+  background-color: rgb(196, 235, 139);
+}
+
+.table th,
+.table td {
+  padding: 2px 10px;
+  text-align: center;
+}
+
+.table td {
+  border: 1px solid rgb(199, 198, 198);
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.table th {
+  white-space: nowrap;
+  user-select: none;
+}
+
+.table th[data-sort] {
+  cursor: pointer;
+}
+
+.table__td {
+  width: 120px;
+}
+
+.table__td--changed {
+  background-color: pink;
+}
+
+.table__input {
+  width: 100%;
+}
+
+.popup {
+  width: 200px;
+  position: fixed;
+  top: 100px;
+  left: 50%;
+  margin-left: -100px;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.popup__body {
+  min-height: 100px;
+}
+
+.popup__text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.popup__footer {
+  text-align: center;
+}
